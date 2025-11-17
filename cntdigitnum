@@ -1,0 +1,21 @@
+// Write a function to count digits in a number.
+
+function cntDigit(num, digit) {
+    while (num <= digit) {
+        num += 1;
+    }
+    console.log(num);
+
+
+}
+cntDigit(0, 13)
+
+
+//findout the length..
+
+function lenDigit(num) {
+    console.log(num.toString().length);
+
+}
+lenDigit(111111)
+
